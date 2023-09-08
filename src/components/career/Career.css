@@ -1,0 +1,144 @@
+.careerTitle{
+    height: 70px;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+    padding: 60px;
+}
+.careerTitle::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 1px;
+    background: linear-gradient(to right,transparent,#cdcac0,transparent);
+
+  }
+
+  .careerDev{
+    padding: 10px 0px !important;
+    background-color: #11141B !important;
+    min-height: 750px !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding-bottom: 80px !important;
+    
+    
+  }
+  .workEduDiv{
+    justify-content: center;
+    gap: 30px;
+    margin: 0% !important;
+  }
+  .eduDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #0C0F16;
+    padding: 20px !important;
+  }
+  .eduSingleDiv{
+    margin-bottom: 20px;
+    padding: 20px 30px !important;
+    position: relative;
+  }
+  
+  .eduSingleDiv::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    bottom: -50px;
+    width: 5px;
+    background:#DA4D23 ;
+    margin-bottom: 30px;
+    
+  }
+
+  .eduSingleDiv::after {
+    content: "";
+    position: absolute;
+    left: 3px; 
+    top: 25px; 
+    width: 10px; 
+    height: 10px; 
+    background: #DA4D23; 
+    border-radius: 50%; 
+    transform: translateX(-50%); 
+  }
+  
+  
+  .eduDiv h6{
+    color: #ffffff;
+    background-color:#DA4D23 ;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .eduDiv p{
+    color: #BFC5C5;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .workDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #0C0F16;
+    margin-top: 20px;
+    padding: 20px !important;
+  }
+  .workDiv h6{
+    color: #ffffff;
+    background-color:#DA4D23 ;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .workDiv p{
+    color: #BFC5C5;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .workSingleDiv{
+    margin-bottom: 20px;
+    padding: 20px 30px !important;
+    position: relative;
+  }
+  
+  .workSingleDiv::before{ /*for the vertical line*/
+    content: ""; 
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    bottom: -60px;
+    width: 5px;
+    background:#DA4D23 ;
+    margin-bottom: 30px;
+    
+  }
+
+  .workSingleDiv::after { /*for the circled points line*/
+    content: "";
+    position: absolute;
+    left: 3px; 
+    top: 25px; 
+    width: 10px; 
+    height: 10px; 
+    background: #DA4D23; 
+    border-radius: 50%; 
+    transform: translateX(-50%); 
+  }
+  @media only screen and (max-width: 800px) {
+    .row{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+    }
+  }

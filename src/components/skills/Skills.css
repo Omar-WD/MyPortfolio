@@ -1,0 +1,135 @@
+.skillsDiv{
+    min-height: 750px;
+    background-color: #11141B;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    margin-top: -1px;
+    
+}
+.skillsProgress{
+    width: 80%;
+    max-width: 1000px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 50px;
+   
+}
+.progress{
+    max-width: 450px;
+    min-width: 450px;
+}
+
+.progress-bar{
+    /* width: 0% !important; */
+    background-color:#DA4D23 !important ;
+    transition: width 3s ease-in-out !important;
+    animation: moveText 3s ease-in-out !important;
+    
+    
+    
+    
+}
+
+
+@keyframes moveText {
+    0% {
+      width: 0% ;
+    }
+    10% {
+        width: 50% ;
+    }
+    100% {
+        width: var(width) ;
+    }
+  }
+
+  @keyframes changeText {
+    0% {
+        width: var(width);
+    }
+    50% {
+        width: 0% ;
+    }
+    100% {
+        width: var(width) ;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .progress{
+        min-width: 300px !important; 
+        width: 300px !important;
+    }
+    .careerTitle {
+        margin-bottom: 55px;
+        padding: 11px;
+    }
+  }
+  @media only screen and (min-width: 401px) and (max-width: 600px) {
+    .progress{
+        min-width: 370px !important; 
+        width: 370px !important;
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 800px) {
+    .progress{ 
+        max-width: 750px !important;
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skillsProgress {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 750px !important;
+        width: 75% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .careerTitle {
+        min-width: 10px;
+        margin-bottom: 55px;
+        padding: 11px;
+    }
+  }
+  @media only screen and (min-width: 801px) and (max-width: 1200px) {
+    .progress{ 
+        width: 333px !important;
+        min-width: 0px !important;
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .skillsProgress {
+        display: flex;
+        gap: 50px;
+        min-width: 0px !important;
+        width: 100% !important;
+        max-width: 2000px !important;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .careerTitle {
+        min-width: 10px;
+        margin-bottom: 55px;
+        padding: 11px;
+    }
+  }
+  @media only screen and (min-width: 901px) and (max-width: 1000px) {
+    .progress{ 
+        width: 400px !important;
+    }
+
+  }
+  @media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    .progress{ 
+        width: 450px !important;
+    }
+
+  }

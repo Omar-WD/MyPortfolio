@@ -1,0 +1,165 @@
+
+.firstPartOfTheLogo {
+  color: #ffc209;
+  font-size: 2.5rem;
+}
+
+.navbarDiv {
+  background-color: transparent;
+  height: 90px;
+  padding: 20px 15% 10px 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  position: fixed;
+  width: 100%;
+  color: white;
+  overflow-y: visible;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+.navbarDiv a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.navbarDiv a:hover {
+  text-shadow: 0px 0px 10px #ffefbe;
+  transition: 0.5s;
+}
+
+.logoDiv {
+  width: 95px;
+  padding: 5px;
+  margin-right: 16px;
+  font-size: 2.5rem;
+}
+.navbarItems {
+  list-style: none;
+  padding: 15px;
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  height: 35px;
+  transition: 1s;
+}
+.navbarItems li {
+  font-size: 14px;
+  font-weight: 500;
+}
+.navbarItems.show {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 0px; /* Adjust as needed */
+  right: 0;
+  background-color: #333;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 280px;
+}
+
+.navbarItems.show li {
+  margin-bottom: 10px;
+}
+.closeButton {
+  display: none;
+}
+
+.navbarDiv.scrolled {
+  background-color: #fffcfc !important;
+  color: #363636 !important;
+  width: 100% !important;
+  transition: 1s !important;
+}
+.navbarDiv.scrolled a {
+  color: #363636 !important;
+  transition: 1s !important;
+}
+.navbarDiv.scrolled a:hover {
+  text-shadow: 0px 0px 8px #ffc209;
+  transition: 1s;
+}
+.logoDiv.scrolled {
+  color: #363636;
+  transition: 1s;
+}
+.barIcon {
+  font-size: 2.5rem;
+  display: none;
+  align-self: center;
+}
+.closeButton {
+  display: none;
+  font-size: 2rem;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.closeIcon {
+    width: 100%;
+    text-align: -webkit-right;
+  }
+  .closeIcon:hover {
+    cursor: pointer;
+  }
+  .navbarItems.show li:hover {
+    padding-left: auto;
+    padding-right: auto;
+    width: 90%;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffc209;
+  }
+@media only screen and (max-width: 1280px) {
+  .navbarDiv {
+    padding: 20px 5% 10px 5%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .navbarItems {
+    display: none;
+  }
+  .barIcon {
+    display: flex;
+  }
+  .navbarItems.show {
+    display: flex;
+    gap: 3px;
+    background-color: rgb(51, 51, 51);
+  }
+  .navbarItems.scrolled {
+    color: white;
+  }
+  .navbarItems.show li {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 0px !important;
+    transition: ease-in-out 3s;
+  }
+  .navbarItems.scrolled a {
+    color: #ffffff !important;
+  }
+  
+  .barIcon .show {
+    display: flex;
+  }
+  .closeButton {
+    display: flex;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  .logoDiv {font-size: 2rem;}
+  .firstPartOfTheLogo{font-size: 2rem;}
+  .navbarDiv{align-items: start;}
+}

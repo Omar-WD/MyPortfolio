@@ -1,0 +1,230 @@
+.heroDiv{
+    width: 100%;
+    color: white;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.heroText h1{
+    overflow: hidden;
+    width: 103px ;
+    display: flex;
+    animation: moveTexts 4s infinite linear !important;
+    height: 73px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 5px solid #FFC209;
+    text-overflow: ellipsis;
+    font-size: 4rem;
+    white-space: nowrap;
+    text-align: start;
+    
+}
+
+
+@keyframes moveTexts {
+  0% {
+      width: 103px ;
+    }
+  70%,90% {
+      width: 750px ;
+  }
+  100% {
+    width: 103px ;
+  }
+}
+
+
+.heroButtons:hover{
+  background-color: transparent !important;
+  color: #FFC209 !important;
+}
+.heroButtonsDiv{
+  height: 50px;
+  padding: 3px;
+  width: 250px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+@media only screen and (max-width: 400px)  {
+  .heroWelcome{
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+  }
+  .heroText h1{
+    font-size: 1.55rem !important;
+    font-weight: 900;
+    height: 40px;
+    align-items: center;
+  }
+  .heroButtonsDiv{
+  height: 2.3rem;
+  padding: 0;
+  }
+  .heroButtons{
+  font-weight: 700 !important;
+  color: rgb(19, 15, 15) !important;
+  }
+  .heroDiv{
+  background-color: #0c0f167a;
+  
+  height: 100vh;
+  padding-top: 90px;
+  }
+  @keyframes moveTexts {
+    0% {
+        width: 50px ;
+      }
+    30%,80% {
+        width: 310px ;
+    }
+    90%,100% {
+      width: 50px ;
+  }
+}}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .heroWelcome{
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+  }
+  .heroText h1{
+    font-size: 2rem !important;
+    font-weight: 900;
+   
+    align-items: center;
+  }
+  .heroButtonsDiv{
+  margin-top: 20px;
+  }
+  .heroDiv{
+  background-color: #0c0f167a;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 90px;
+  }
+  @keyframes moveTexts {
+    0% {
+        width: 65px ;
+      }
+    50%,80% {
+        width: 390px ;
+    }
+    90%,100% {
+      width: 65px ;
+  }
+  }
+
+}
+@media only screen and (min-width: 601px) and (max-width: 700px) {
+  .heroWelcome{
+    font-size: 2rem;
+    padding-bottom: 20px;
+  }
+  .heroText h1{
+    font-size: 2.5rem !important;
+    font-weight: 800 !important;
+    overflow-x: hidden;
+  }
+  .heroDiv{
+    background-color: #0c0f167a;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 125px;
+    }
+  @keyframes moveTexts {
+    0% {
+        width: 75px ;
+      }
+    50%,80% {
+        width: 500px ;
+    }
+    90%,100% {
+      width: 75px ;
+  }
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+  .heroWelcome{
+    font-size: 2rem;
+    padding-bottom: 20px;
+  }
+  .heroText h1{
+    font-size: 3.4rem !important;
+    font-weight: 800 !important;
+    overflow-x: hidden;
+  }
+  .heroButtonsDiv{
+  margin-top: 20px;
+  }
+  .heroDiv{
+  background-color: #0c0f167a;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 80px;
+  }
+  @keyframes moveTexts {
+    0% {
+        width: 105px ;
+      }
+    50%,80% {
+        width: 659px ;
+    }
+    90%,100% {
+      width: 105px ;
+  }
+  }
+
+}
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .heroWelcome{
+    font-size: 2rem;
+    padding-bottom: 20px;
+  }
+  .heroText h1{
+    font-size: 3.5rem !important;
+    font-weight: 800 !important;
+    overflow-x: hidden;
+  }
+  .heroDiv{
+    display: flex;
+    padding-left: 350px !important;
+    padding-top: 80px;
+  }
+  @keyframes moveTexts {
+    0% {
+        width: 105px ;
+      }
+    30%,70% {
+        width: 690px ;
+    }
+    80%,100% {
+      width: 105px ;
+  }
+  }
+
+}
+@media only screen and (min-width: 1501px) {
+  .heroDiv{
+    display: flex;
+    padding-left: 300px;
+  }
+  @keyframes moveTexts {
+    0% {
+        width: 105px ;
+      }
+    30%,70% {
+        width: 710px ;
+    }
+    80%,100% {
+      width: 105px ;
+  }
+  }
+}

@@ -1,0 +1,162 @@
+.serviceDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+
+    gap: 2rem;
+    padding: 60px 100px !important;
+    background-color: #0C0F16;
+    min-width: none;
+    max-width: none !important;
+}
+.myServiceTitle{
+    height: 70px;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.myServiceTitle::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 1px;
+    background: linear-gradient(to right,transparent,#cdcac0,transparent);
+  
+  }
+.serviceCard{
+    width: 100%;
+    max-width: 333px !important;
+    margin: 25px;
+    background-color: #151921 !important;
+    color: white !important;
+    position: relative;
+    overflow: hidden;
+}
+.serviceCard:hover{
+    cursor: pointer;
+    /* transform: scale(1.05); */
+    /* box-shadow: rgba(186, 186, 184, 0.1) 3px 3px 3px 3px 5px; */
+    /* box-shadow: 0px 5px 15px rgba(186, 186, 184, 0.5); */
+    /* box-shadow: 0px 15px 20px rgba(223, 223, 221, 0.25); */
+    box-shadow: 0px 10px 30px rgb(193 169 144 / 30%);
+    transition: 0.3s ease-in;
+
+}
+
+.serviceCard::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%; 
+    height: 3px;
+    background-image: linear-gradient(transparent, #DA4D23, transparent);
+    transition: width 0.3s ease !important; 
+  }
+  .serviceCard:hover::before{
+    width: 100% !important;
+    cursor: grab;
+  }
+  .serviceCard:hover .cardIcon {
+    background-color: #DA4D23;
+    color:white !important;
+    cursor: grab;
+    /* transform: rotate(360deg); */
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+  }
+  .cardIcon{
+    width: 70px;
+    background-color:#22252D;
+    color: #DA4D23 !important;
+    padding: 3px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+  }
+  .cardBody{
+    min-width: 220px;
+  }
+ 
+
+  @media only screen and (max-width: 400px) {
+    .serviceDiv {
+      padding: 0% !important;
+      margin: 0% !important;
+      margin-top: -1px !important;
+      margin-bottom: -1px !important;
+     padding-bottom: 50px !important;
+     
+    }
+    .card{
+      width: 90% !important;
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+
+      
+    }
+    .myServiceTitle{
+      height: 50px;
+      margin-top: 50px;
+      margin-bottom: 10px !important;
+    }
+
+    .serviceCard{
+      width: 100%;
+      max-width: 333px !important;
+      margin: 25px;
+      background-color: #151921 !important;
+      color: white !important;
+      position: relative;
+      overflow: hidden;
+  }
+    
+   
+  }
+  @media only screen and (min-width: 401px) and (max-width: 949px) {
+
+    .serviceDiv {
+      padding: 0% !important;
+      margin: 0% !important;
+      margin-top: -1px !important;
+      margin-bottom: -1px !important;
+     padding-bottom: 50px !important;
+     
+    }
+    .card{
+      width: 370px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: none !important;
+    }
+    .myServiceTitle{
+      height: 50px;
+      margin-top: 50px;
+      margin-bottom: 10px !important;
+    }
+    .row{
+      margin-left: 0% !important;
+      margin-right: 0% !important;
+
+    }
+
+  }
+  @media only screen and (min-width: 501px) and (max-width: 949px) {
+    .card{
+      width: 470px !important;
+    }
+  }
+  @media only screen and (min-width: 950px) and (max-width: 2000px) {
+    .serviceDiv {
+      margin-top: -1px !important;
+      margin-bottom: -1px !important;
+    }
+  }

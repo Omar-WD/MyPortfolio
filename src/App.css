@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../src/assets/PortfolioPhoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+  overflow-y: scroll;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+.upArrow{
+  display: none;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 50px;
+  color: #DA4D23;
+}
+.scrolledup{
+  display: block !important;
+}
+
+/* @media only screen and (max-width: 600px) {
+
+  body{
+ 
+    background-image: url("../src/assets/Portfolio2.jpg");
+    background-size: contain;
+  }
+} */
