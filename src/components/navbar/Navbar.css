@@ -6,12 +6,12 @@
 
 .navbarDiv {
   background-color: transparent;
-  height: 90px;
+  height: 70px;
   padding: 20px 15% 10px 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   position: fixed;
   width: 100%;
   color: white;
@@ -161,5 +161,5 @@
 @media only screen and (max-width: 600px) {
   .logoDiv {font-size: 2rem;}
   .firstPartOfTheLogo{font-size: 2rem;}
-  .navbarDiv{align-items: start;}
+  .navbarDiv{align-items: center;}
 }
