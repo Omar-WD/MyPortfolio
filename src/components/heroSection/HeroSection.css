@@ -10,18 +10,12 @@
     background-image: url("../../assets/PortfolioPhoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: scroll;
-    background-position: center;
+    overflow-y: hidden;
     background-attachment: fixed;
+   background-position: left;
     
 }
-/* body {
- 
-  font-family: 'Rubik', Arial, Helvetica, sans-serif;
-  overflow-y: scroll;
-  background-position: center;
-  background-attachment: fixed;
-} */
+
 
 .heroText h1{
     overflow: hidden;
@@ -176,10 +170,10 @@
     overflow-x: hidden;
   }
   .heroButtonsDiv{
-  margin-top: 20px;
+  margin-top: 60px;
   }
   .heroDiv{
-  background-color: #0c0f167a;
+  /* background-color: #0c0f167a; */
   justify-content: center;
   height: 100vh;
   padding-top: 80px;
@@ -243,11 +237,20 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 
   .heroDiv{
     background-image: url("../../assets/p1.jpg") !important;
     background-size: cover;
     background-attachment: inherit;
+    background-blend-mode: color;
+    background-position: center;
+  }
+  
+}
+@media only screen and (max-width: 1200px) {
+  .heroDiv{
+    background-color: #0c0f167a;
+  background-blend-mode: color ; 
   }
 }
