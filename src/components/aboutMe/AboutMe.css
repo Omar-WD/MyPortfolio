@@ -2,6 +2,7 @@
   background-color: #11141b;
   min-height: 700px;
   max-width: 2000px !important;
+  margin-top: -1px;
 }
 .buttonsDiv{
   display: inline-flex;
