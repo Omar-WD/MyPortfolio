@@ -42,7 +42,7 @@ export default function AboutMe() {
             </button>
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=1YVe0shBborJ79Q2MEuXO9_l2kd-q5Emd"
+            href="./https://drive.google.com/uc?export=download&id=1YVe0shBborJ79Q2MEuXO9_l2kd-q5Emd"
             download="Omar_Al Zoubi_Resume.pdf"
           >
             <button className="fillButton">
