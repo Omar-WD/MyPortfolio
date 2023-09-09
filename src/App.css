@@ -28,7 +28,8 @@ body {
 @media only screen and (max-width: 600px) {
 
   body {
-    background-image: url("../src/assets/Portfolio3.jpg") !important;
+    background-image: url("../src/assets/p1.jpg") !important;
+    background-size: cover;
   }
 }
 
