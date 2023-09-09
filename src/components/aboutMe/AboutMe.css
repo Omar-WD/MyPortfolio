@@ -40,8 +40,7 @@
 .myImage {
   width: auto;
   height: 400px !important;
-  border: 10px solid #dad0c2;
-  border-radius: 10px;
+  border-radius: 50px;
   image-rendering: auto;
   background-attachment: scroll;
 }
