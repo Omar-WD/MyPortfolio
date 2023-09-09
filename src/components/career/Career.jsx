@@ -26,8 +26,8 @@ export default function Career() {
       year1: "2020",
       year2: "2022",
       description: `
-      Advanced business courses including: Financial
-      Management, Consumer Behavior, Strategic Decision Making, Research Methods, Marketing Principles.
+      Advanced business courses including: 
+      Financial Management, Consumer Behavior, Strategic Decision Making, Research Methods, Marketing Principles.
       •Thesis Project: E-Commerce, the Bright Side of COVID
        19 in Lebanon
       •Graduation GPA: 3.35 / 4
@@ -55,7 +55,8 @@ export default function Career() {
       name: "Sales & Marketing Manager",
       year1: "2018",
       year2: "2022",
-      description: `•Successfully participated in tenders and secured
+      description: `
+      •Successfully participated in tenders and secured
       contracts, resulting in increased business
       opportunities and revenue for the supermarket.
       •Implemented strategic initiatives to attract new

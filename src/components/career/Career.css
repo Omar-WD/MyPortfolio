@@ -43,7 +43,7 @@
   }
   .eduSingleDiv{
     margin-bottom: 20px;
-    padding: 20px 30px !important;
+    padding: 20px 0 20px 30px !important;
     position: relative;
   }
   
@@ -79,6 +79,10 @@
     text-align: center;
     margin-bottom: 15px;
   }
+  .eduSingleDiv p {
+    text-align: justify;
+    white-space: pre-line;
+}
   .eduDiv p{
     color: #BFC5C5;
     display: flex;
@@ -109,9 +113,13 @@
 
   .workSingleDiv{
     margin-bottom: 20px;
-    padding: 20px 30px !important;
+    padding: 20px 0 20px 30px !important;
     position: relative;
   }
+  .workSingleDiv p {
+    text-align: justify;
+    white-space: pre-line;
+}
   
   .workSingleDiv::before{ /*for the vertical line*/
     content: ""; 
