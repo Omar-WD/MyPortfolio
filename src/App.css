@@ -25,7 +25,7 @@ body {
   display: block !important;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
   body {
     background-image: url("../src/assets/Portfolio3.jpg") !important;
