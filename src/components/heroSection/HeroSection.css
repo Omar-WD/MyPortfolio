@@ -248,5 +248,6 @@
   .heroDiv{
     background-image: url("../../assets/p1.jpg") !important;
     background-size: cover;
+    background-attachment: inherit;
   }
 }
