@@ -8,10 +8,9 @@ body {
   background-image: url("../src/assets/PortfolioPhoto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
   overflow-y: scroll;
-  background-position: fixed;
+  background-position: center;
   background-attachment: fixed;
 }
 .upArrow{
@@ -26,11 +25,9 @@ body {
   display: block !important;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 
-  body{
- 
-    background-image: url("../src/assets/Portfolio2.jpg");
-    background-size: contain;
+  body {
+    background-position: unset;
   }
-} */
+}

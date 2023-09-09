@@ -30,7 +30,7 @@ export default function HeroSection() {
         <Button variant="warning" className="heroButtons">
           View Work
         </Button>
-        <Button variant="warning" className="heroButtons" href="#contactMe">
+        <Button variant="warning" className="heroButtons" href="#contact">
           Hire Me
         </Button>
       </div>
