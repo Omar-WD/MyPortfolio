@@ -6,12 +6,12 @@
 
 body {
   /* background-image: url("../src/assets/PortfolioPhoto.jpg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
-  overflow-y: scroll;
-  background-position: center;
-  background-attachment: fixed;
+  /* overflow-y: scroll; */
+  /* background-position: center;
+  background-attachment: fixed; */
 }
 .upArrow{
   display: none;

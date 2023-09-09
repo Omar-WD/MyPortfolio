@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("../src/assets/PortfolioPhoto.jpg");
+    background-image: url("../../assets/PortfolioPhoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
@@ -246,7 +246,7 @@
 @media only screen and (max-width: 600px) {
 
   .heroDiv{
-    background-image: url("../src/assets/p1.jpg") !important;
+    background-image: url("../../assets/p1.jpg") !important;
     background-size: cover;
   }
 }
