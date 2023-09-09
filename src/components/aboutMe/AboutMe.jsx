@@ -12,7 +12,7 @@ export default function AboutMe() {
         <Col className="myImageDev">
           <Image fluid
             className="myImage"
-            src="../../assets/AboutMe.jpg"
+            src="../../assets/css3.svg"
           />
         </Col>
         <Col className="aboutMeText">
