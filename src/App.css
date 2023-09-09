@@ -5,11 +5,12 @@
 }
 
 body {
-  background-image: url("https://res.cloudinary.com/dwsehtkkw/image/upload/v1694269152/fx2xldzvyo45jawi2nt0.jpg");
+  background-image: url("../src/assets/PortfolioPhoto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Rubik', Arial;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
   overflow-y: scroll;
+  background-position: center;
   background-attachment: fixed;
 }
 .upArrow{
@@ -24,4 +25,10 @@ body {
   display: block !important;
 }
 
+@media only screen and (max-width: 400px) {
+
+  body {
+    background-image: url("../src/assets/Portfolio3.jpg") !important;
+  }
+}
 
