@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("../src/assets/PortfolioPhoto.jpg");
+  /* background-image: url("../src/assets/PortfolioPhoto.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
@@ -25,11 +25,5 @@ body {
   display: block !important;
 }
 
-@media only screen and (max-width: 600px) {
 
-  body {
-    background-image: url("../src/assets/p1.jpg") !important;
-    background-size: cover;
-  }
-}
 
