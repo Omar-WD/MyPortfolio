@@ -42,6 +42,7 @@
   border: 10px solid #dad0c2;
   border-radius: 10px;
   image-rendering: auto;
+  background-attachment: scroll;
 }
 
 .aboutMeText p {

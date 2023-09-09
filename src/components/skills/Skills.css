@@ -18,21 +18,22 @@
     margin-right: auto;
     justify-content: center;
     gap: 50px;
-   
+    color: #11141B;
+    
 }
 .progress{
     max-width: 450px;
     min-width: 450px;
+    
 }
 
 .progress-bar{
     /* width: 0% !important; */
-    background-color:#DA4D23 !important ;
+    background-color:#ffc209 !important ;
     transition: width 3s ease-in-out !important;
     animation: moveText 3s ease-in-out !important;
-    
-    
-    
+    color: #11141B !important;
+    font-weight: 700;
     
 }
 

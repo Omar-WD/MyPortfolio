@@ -54,7 +54,7 @@
     top: 50px;
     bottom: -50px;
     width: 5px;
-    background:#DA4D23 ;
+    background:#ffc209 ;
     margin-bottom: 30px;
     
   }
@@ -66,7 +66,7 @@
     top: 25px; 
     width: 10px; 
     height: 10px; 
-    background: #DA4D23; 
+    background: #ffc209; 
     border-radius: 50%; 
     transform: translateX(-50%); 
   }
@@ -74,7 +74,7 @@
   
   .eduDiv h6{
     color: #ffffff;
-    background-color:#DA4D23 ;
+    background-color:#ffc209 ;
     width: 100px;
     text-align: center;
     margin-bottom: 15px;
@@ -96,7 +96,7 @@
   }
   .workDiv h6{
     color: #ffffff;
-    background-color:#DA4D23 ;
+    background-color:#ffc209 ;
     width: 100px;
     text-align: center;
     margin-bottom: 15px;
@@ -120,7 +120,7 @@
     top: 50px;
     bottom: -60px;
     width: 5px;
-    background:#DA4D23 ;
+    background:#ffc209 ;
     margin-bottom: 30px;
     
   }
@@ -132,7 +132,7 @@
     top: 25px; 
     width: 10px; 
     height: 10px; 
-    background: #DA4D23; 
+    background: #ffc209; 
     border-radius: 50%; 
     transform: translateX(-50%); 
   }

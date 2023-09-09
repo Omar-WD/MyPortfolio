@@ -12,11 +12,7 @@ export default function AboutMe() {
         <Col className="myImageDev">
           <Image fluid
             className="myImage"
-<<<<<<< HEAD
-            src="../../../src/assets/omar.jpg"
-=======
-            src="../../../assets/AboutMe.jpg"
->>>>>>> f898dbe7b714d6f6425c60d0ac6f1dfe34b13117
+            src="\src\assets\omar.jpg"
           />
         </Col>
         <Col className="aboutMeText">
