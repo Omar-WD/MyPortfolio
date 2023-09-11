@@ -46,7 +46,7 @@ export default function AboutMe() {
             download="Omar_Al Zoubi_Resume.pdf"
           >
             <button className="fillButton">
-              <span>Download my cv</span>
+              <span>Download my CV</span>
             </button>
           </a>
           </div>
