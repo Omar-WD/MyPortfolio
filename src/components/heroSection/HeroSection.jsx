@@ -23,7 +23,7 @@ export default function HeroSection() {
       <h3 className="heroWelcome">WELCOME TO MY WEBSITE</h3>
       <div className="heroText">
         <h1>
-          I'm <span>&nbsp;{spanTexts[currentSpan]}</span>
+          I'm a <span>&nbsp;{spanTexts[currentSpan]}</span>
         </h1>
       </div>
       <div className="heroButtonsDiv">
