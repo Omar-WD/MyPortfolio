@@ -1,0 +1,83 @@
+.myProjects{
+    background-color: #11141B;
+    margin-top: -1px;
+    padding-top: 10px;
+}
+
+
+.videoSection {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .videoSection video{
+        width: 300px;
+        height: 175px;
+    }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px){
+
+    .videoSection video{
+        width: 370px;
+        height: 216px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 949px){
+
+    .videoSection video{
+        width: 470px;
+        height: 275px;
+    }
+}
+@media only screen and (min-width: 950px) and (max-width: 1340px){
+
+    .videoSection video{
+        width: 333px;
+        height: 195px;
+    }
+    .videoSection{
+        gap: 60px;
+        padding: 20px 111px;
+    }
+    .myProjects{
+        padding-top: 60px;
+    }
+}
+@media only screen and (min-width: 1341px) and (max-width: 1850px){
+
+    .videoSection video{
+        width: 514px;
+        height: 301px;
+    }
+    .videoSection{
+        gap: 60px;
+        padding: 20px 111px;
+    }
+    .myProjects{
+        padding-top: 60px;
+    }
+
+}
+@media only screen and (min-width: 1851px){
+
+    .videoSection video{
+        width: 514px;
+        height: 301px;
+    }
+    .videoSection{
+        gap: 60px;
+        padding: 20px 360px;
+    }
+    .myProjects{
+        padding-top: 60px;
+    }
+}

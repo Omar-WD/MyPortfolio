@@ -5,6 +5,7 @@ import HeroSection from "./components/heroSection/HeroSection";
 import AboutMe from "./components/aboutMe/AboutMe";
 import Services from "./components/services/Services";
 import Career from "./components/career/Career";
+import Project from "./components/projects/Project";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contanct";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -34,6 +35,7 @@ function App() {
         <HeroSection />
         <AboutMe />
         <Services />
+        <Project/>
         <Career />
         <Skills />
         <a className={`upArrow ${scrolled?"scrolledup":""}`} href="#home"><BiUpArrowCircle /></a>
