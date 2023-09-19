@@ -160,3 +160,13 @@
       margin-bottom: -1px !important;
     }
   }
+  @media only screen and (min-width: 1710px) and (max-width: 2100px) {
+    .serviceDiv {
+      padding: 10px 285px !important;
+    }
+  }
+  @media only screen and (min-width: 2101px) and (max-width: 2300px) {
+    .serviceDiv {
+      padding: 10px 475px !important;
+    }
+  }
