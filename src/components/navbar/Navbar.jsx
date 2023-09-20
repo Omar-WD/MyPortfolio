@@ -65,6 +65,14 @@ export default function Navbar() {
         <li
           onClick={() => {
             setShowMenu(false);
+            window.location.href = "#projects";
+          }}
+        >
+          <a href="#projects">Projects</a>
+        </li>
+        <li
+          onClick={() => {
+            setShowMenu(false);
             window.location.href = "#resume";
           }}
         >

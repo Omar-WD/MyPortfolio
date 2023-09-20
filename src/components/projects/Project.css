@@ -2,6 +2,7 @@
     background-color: #11141B;
     margin-top: -1px;
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 
@@ -14,12 +15,24 @@
     align-items: center;
     gap: 30px;
 }
+.videoSection video{
+        width: 300px;
+        height: 175px;
+        background-color: #090D0F !important;
+        border: groove;
 
+    }
+    .videoSection video:hover{
+        cursor: pointer;
+        box-shadow: 0px 10px 70px rgb(193 169 319 / 150%);
+        
+    }
 @media only screen and (max-width: 400px) {
 
     .videoSection video{
         width: 300px;
         height: 175px;
+        background-color: #11141b
     }
 
 }

@@ -12,7 +12,7 @@ export default function Project() {
     "7.mp4",
   ];
   return (
-    <div className="myProjects">
+    <div className="myProjects" id="projects">
       <h1 className="myServiceTitle">My Projects</h1>
       <div className="videoSection">
         {videoSrc.map((v, index) => (

@@ -27,7 +27,7 @@ export default function HeroSection() {
         </h1>
       </div>
       <div className="heroButtonsDiv">
-        <Button variant="warning" className="heroButtons">
+        <Button variant="warning" className="heroButtons" href="#projects">
           View Work
         </Button>
         <Button variant="warning" className="heroButtons" href="#contact">
