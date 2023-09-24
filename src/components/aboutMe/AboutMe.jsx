@@ -18,7 +18,7 @@ export default function AboutMe() {
         </Col>
         <Col className="aboutMeText">
           <h2 style={{ color: "white" }}>
-            I am <span style={{ color: "#FFC209" }}>Omar</span>
+            I am <span style={{ color: "#FFC209" }}>Omar Al Zoubi</span>
           </h2>
           <h6 style={{ color: "#BDBBB8", marginBottom: "20px",fontFamily: 'fangsong' }}>
             FULL STACK WEB DEVELOPER
