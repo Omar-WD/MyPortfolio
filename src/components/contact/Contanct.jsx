@@ -13,7 +13,6 @@ export default function Contact() {
     <div className="getInTouch" id="contact">
       <h1 className="getInTouchTitle">Get In Touch</h1>
       <div className="contactMe">
-        <h4>Hamburg, Germany</h4>
         <MapContainer
           center={position}
           zoom={13}
