@@ -10,6 +10,7 @@ export default function Project() {
     "5.mp4",
     "6.mp4",
     "7.mp4",
+    "8.mp4",
   ];
   return (
     <div className="myProjects" id="projects">
