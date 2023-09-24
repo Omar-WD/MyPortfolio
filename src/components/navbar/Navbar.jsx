@@ -24,8 +24,8 @@ export default function Navbar() {
   return (
     <div className={`navbarDiv ${scrolled ? "scrolled" : ""}`} id="navBar">
       <div className={`logoDiv ${scrolled ? "scrolled" : ""}`}>
-        <span className="firstPartOfTheLogo">O&Z</span>
-        Wev Development
+        <span className="firstPartOfTheLogo">MY</span>
+        PORTFOLIO
       </div>
       <ul
         className={`navbarItems ${scrolled ? "scrolled" : ""} ${
